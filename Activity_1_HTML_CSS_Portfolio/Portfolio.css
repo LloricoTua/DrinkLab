@@ -1,0 +1,61 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(black 25%, red);
+    color: #a8a6a6;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+section h2{
+    color: white;
+}
+
+section h3{
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(red,black);
+    color: #fff;
+    border: 2px solid white;
+}
+
+header button{
+    background-color: red;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: darkred;
+}
+
+#projects {
+    padding: 20px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+a button{
+    border-width: 2px;
+    border-color: white;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    margin-top: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(#5d0000, #361100);
+    color: white;
+}
